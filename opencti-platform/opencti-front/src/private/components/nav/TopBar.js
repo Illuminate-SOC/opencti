@@ -82,6 +82,13 @@ const styles = (theme) => ({
     cursor: 'pointer',
     height: 35,
   },
+  bannerHeader: {
+    color: 'black',
+    textAlign: 'center',
+    background: 'rgb(82,205,66)',
+    margin: 0,
+    padding: 2,
+  },
   menuContainer: {
     float: 'left',
     marginLeft: 40,
@@ -153,6 +160,9 @@ const TopBar = ({
       className={classes.appBar}
       style={{ backgroundColor: '#1b2226' }}
     >
+      <div>
+        <p className={classes.bannerHeader}>UNCLASSIFIED</p>
+      </div>
       <Toolbar>
         <div className={classes.logoContainer}>
           <Link to="/dashboard">
