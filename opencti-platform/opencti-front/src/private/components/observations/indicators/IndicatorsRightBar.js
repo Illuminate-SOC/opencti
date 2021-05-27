@@ -25,6 +25,8 @@ const styles = (theme) => ({
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.enteringScreen,
     }),
+    // adjusting margin for bannerHeader
+    marginTop: '25px',
   },
   drawerPaperExports: {
     minHeight: '100vh',
