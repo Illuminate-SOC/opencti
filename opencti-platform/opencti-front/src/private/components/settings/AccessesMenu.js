@@ -17,6 +17,8 @@ const styles = (theme) => ({
     overflow: 'auto',
     padding: 0,
     backgroundColor: theme.palette.background.navLight,
+    // adjusting margin for bannerHeader
+    marginTop: '25px',
   },
   toolbar: theme.mixins.toolbar,
 });
