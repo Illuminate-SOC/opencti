@@ -22,6 +22,8 @@ const styles = (theme) => ({
     overflowX: 'hidden',
     zIndex: 0,
     backgroundColor: theme.palette.navAlt.background,
+    // adjusting margin for bannerHeader
+    marginTop: '25px',
   },
   toolbar: theme.mixins.toolbar,
 });
