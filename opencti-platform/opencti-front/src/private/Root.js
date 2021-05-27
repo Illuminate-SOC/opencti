@@ -36,6 +36,8 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.default,
     padding: '24px 24px 24px 204px',
     minWidth: 0,
+    // adjusting content for bannerHeader
+    marginTop: 20,
   },
   message: {
     display: 'flex',
