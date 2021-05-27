@@ -43,6 +43,8 @@ const styles = (theme) => ({
     minHeight: '100vh',
     width: 180,
     backgroundColor: theme.palette.background.nav,
+    // adjusting margin for bannerHeader
+    marginTop: 20,
   },
   menuList: {
     height: '100%',
